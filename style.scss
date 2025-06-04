@@ -58,6 +58,10 @@
     }
 }
 
-#map .background {
-    max-width: unset;
+#map {
+    width: fit-content;
+
+    .background {
+        max-width: unset;
+    }
 }

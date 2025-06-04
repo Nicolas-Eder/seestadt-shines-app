@@ -50,6 +50,9 @@
   background: linear-gradient(to left, rgb(255, 255, 255), rgba(255, 255, 255, 0));
 }
 
+#map {
+  width: fit-content;
+}
 #map .background {
   max-width: unset;
 }
