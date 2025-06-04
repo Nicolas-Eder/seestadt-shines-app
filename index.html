@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="module" src="/index.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Seestadt Shines App</title>
+</head>
+
+<body>
+    <div class="section">
+        <h1 class="title is-2">Vote for tomorrow’s event location</h1>
+    </div>
+
+    <div class="map-section">
+        <div class="map-wrapper">
+            <div class="map">
+                <img class="background" src="/assets/plan.png" height="1178" width="1024" alt="">
+                <div id="overlay"></div>
+            </div>
+        </div>
+        <div class="fade">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>
+
+    <div class="section">
+        <div class="level is-mobile">
+            <div class="level-left">
+                <div class="level-item">
+                    <div>
+                        <p>Voting open until 18:00</p>
+                        <p>(1h 25 min left)</p>
+                    </div>
+                </div>
+            </div>
+            <div class="level-right">
+                <div class="level-item">
+                    <button class="button" disabled>Vote</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

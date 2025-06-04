@@ -1,0 +1,60 @@
+@import "https://cdn.jsdelivr.net/npm/bulma@1.0.4/css/bulma.min.css";
+
+.map-wrapper {
+    height: 50vh;
+    overflow: scroll;
+    position: relative;
+}
+
+.map-section{
+    position: relative;
+}
+
+.map-section .fade {
+    pointer-events: none;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+
+    * {
+        background-color: blue;
+        position: absolute;
+    }
+
+    $fade-width: 2rem;
+
+    *:nth-child(1){
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: $fade-width;
+        background: linear-gradient(to bottom, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0));
+    }
+    *:nth-child(2){
+        top: 0;
+        left: 0;
+        width: $fade-width;
+        height: 100%;
+        background: linear-gradient(to right, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0));
+    }
+    *:nth-child(3){
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: $fade-width;
+        background: linear-gradient(to top, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0));
+    }
+    *:nth-child(4){
+        top: 0;
+        right: 0;
+        height: 100%;
+        width: $fade-width;
+        background: linear-gradient(to left, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0));
+    }
+}
+
+.map .background {
+    max-width: unset;
+}
