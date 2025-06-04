@@ -50,7 +50,7 @@
   background: linear-gradient(to left, rgb(255, 255, 255), rgba(255, 255, 255, 0));
 }
 
-.map .background {
+#map .background {
   max-width: unset;
 }
 
