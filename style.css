@@ -1,21 +1,23 @@
 @import "https://cdn.jsdelivr.net/npm/bulma@1.0.4/css/bulma.min.css";
-.map-wrapper {
-  height: 65vh;
-  overflow: scroll;
+.overlay-anchor {
   position: relative;
 }
 
-.map-section {
-  position: relative;
-}
-
-.map-section .fade {
-  pointer-events: none;
+.overlay {
   position: absolute;
   height: 100%;
   width: 100%;
   top: 0;
   left: 0;
+}
+
+.map-wrapper {
+  height: 65vh;
+  overflow: scroll;
+}
+
+.map-section .fade {
+  pointer-events: none;
 }
 .map-section .fade * {
   background-color: blue;
@@ -55,6 +57,14 @@
 }
 #map .background {
   max-width: unset;
+}
+
+#raster-overlay {
+  display: flex;
+  flex-wrap: wrap;
+}
+#raster-overlay .tile {
+  border: 1px solid rgba(0, 0, 0, 0.169);
 }
 
 /*# sourceMappingURL=style.css.map */
