@@ -68,15 +68,6 @@
     }
 }
 
-#raster-overlay {
-    display: flex;
-    flex-wrap: wrap;
-
-    .tile {
-        border: 1px solid rgba(0, 0, 0, 0.169);
-    }
-}
-
 .click-circle{
     position: absolute;
     border: 1px solid black;
