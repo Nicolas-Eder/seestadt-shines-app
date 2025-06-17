@@ -1,5 +1,9 @@
 @import "https://cdn.jsdelivr.net/npm/bulma@1.0.4/css/bulma.min.css";
 
+body{
+    --bulma-family-primary: "Futura"
+}
+
 .overlay-anchor{
     position: relative;
 }
@@ -13,7 +17,7 @@
 }
 
 .map-wrapper {
-    height: 65vh;
+    height: 60vh;
     overflow: scroll;
 }
 
